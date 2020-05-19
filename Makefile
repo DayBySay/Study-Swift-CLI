@@ -1,3 +1,6 @@
+project:
+	swift package generate-xcodeproj
+
 build:
 	swift build
 

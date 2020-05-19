@@ -17,7 +17,7 @@
             "en"
          );
          mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_14";
+         productRefGroup = "OBJ_15";
          projectDirPath = ".";
          targets = (
             "Study-Swift-CLI::Study-Swift-CLI",
@@ -58,6 +58,14 @@
       "OBJ_14" = {
          isa = "PBXGroup";
          children = (
+         );
+         name = "Dependencies";
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_15" = {
+         isa = "PBXGroup";
+         children = (
             "Study-Swift-CLI::Study-Swift-CLITests::Product",
             "Study-Swift-CLI::Study-Swift-CLI::Product"
          );
@@ -65,12 +73,12 @@
          path = "";
          sourceTree = "BUILT_PRODUCTS_DIR";
       };
-      "OBJ_17" = {
+      "OBJ_18" = {
          isa = "PBXFileReference";
          path = "Makefile";
          sourceTree = "<group>";
       };
-      "OBJ_18" = {
+      "OBJ_19" = {
          isa = "PBXFileReference";
          path = "README.md";
          sourceTree = "<group>";
@@ -84,53 +92,14 @@
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_20" = {
+      "OBJ_21" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_21",
-            "OBJ_22"
+            "OBJ_22",
+            "OBJ_23"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_21" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "Study-Swift-CLI.xcodeproj/Study_Swift_CLI_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "Study-Swift-CLI";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
       };
       "OBJ_22" = {
          isa = "XCBuildConfiguration";
@@ -169,51 +138,70 @@
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_23" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_24"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "Study-Swift-CLI.xcodeproj/Study_Swift_CLI_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Study-Swift-CLI";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
       };
       "OBJ_24" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_25"
+         );
+      };
+      "OBJ_25" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_9";
       };
-      "OBJ_25" = {
+      "OBJ_26" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
          );
       };
-      "OBJ_27" = {
+      "OBJ_28" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_28",
-            "OBJ_29"
+            "OBJ_29",
+            "OBJ_30"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_28" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.2.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
       };
       "OBJ_29" = {
          isa = "XCBuildConfiguration";
@@ -233,7 +221,7 @@
             );
             SWIFT_VERSION = "5.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_3" = {
          isa = "XCBuildConfiguration";
@@ -278,87 +266,68 @@
          name = "Debug";
       };
       "OBJ_30" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_31"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.2.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
       };
       "OBJ_31" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_32"
+         );
+      };
+      "OBJ_32" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_6";
       };
-      "OBJ_33" = {
+      "OBJ_34" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_34",
-            "OBJ_35"
+            "OBJ_35",
+            "OBJ_36"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_34" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Debug";
       };
       "OBJ_35" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_36" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_37" = {
          isa = "PBXTargetDependency";
          target = "Study-Swift-CLI::Study-Swift-CLITests";
       };
-      "OBJ_38" = {
+      "OBJ_39" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_39",
-            "OBJ_40"
+            "OBJ_40",
+            "OBJ_41"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
-      };
-      "OBJ_39" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "Study-Swift-CLI.xcodeproj/Study_Swift_CLITests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "Study-Swift-CLITests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
       };
       "OBJ_4" = {
          isa = "XCBuildConfiguration";
@@ -435,29 +404,68 @@
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
-         name = "Release";
+         name = "Debug";
       };
       "OBJ_41" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_42",
-            "OBJ_43"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "Study-Swift-CLI.xcodeproj/Study_Swift_CLITests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Study-Swift-CLITests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
       };
       "OBJ_42" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_12";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_43",
+            "OBJ_44"
+         );
       };
       "OBJ_43" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
+         fileRef = "OBJ_12";
       };
       "OBJ_44" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
+      };
+      "OBJ_45" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
          );
       };
-      "OBJ_45" = {
+      "OBJ_46" = {
          isa = "PBXTargetDependency";
          target = "Study-Swift-CLI::Study-Swift-CLI";
       };
@@ -468,8 +476,9 @@
             "OBJ_7",
             "OBJ_10",
             "OBJ_14",
-            "OBJ_17",
-            "OBJ_18"
+            "OBJ_15",
+            "OBJ_18",
+            "OBJ_19"
          );
          path = "";
          sourceTree = "<group>";
@@ -505,10 +514,10 @@
       };
       "Study-Swift-CLI::Study-Swift-CLI" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_20";
+         buildConfigurationList = "OBJ_21";
          buildPhases = (
-            "OBJ_23",
-            "OBJ_25"
+            "OBJ_24",
+            "OBJ_26"
          );
          dependencies = (
          );
@@ -524,24 +533,24 @@
       };
       "Study-Swift-CLI::Study-Swift-CLIPackageTests::ProductTarget" = {
          isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_33";
+         buildConfigurationList = "OBJ_34";
          buildPhases = (
          );
          dependencies = (
-            "OBJ_36"
+            "OBJ_37"
          );
          name = "Study-Swift-CLIPackageTests";
          productName = "Study-Swift-CLIPackageTests";
       };
       "Study-Swift-CLI::Study-Swift-CLITests" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_38";
+         buildConfigurationList = "OBJ_39";
          buildPhases = (
-            "OBJ_41",
-            "OBJ_44"
+            "OBJ_42",
+            "OBJ_45"
          );
          dependencies = (
-            "OBJ_45"
+            "OBJ_46"
          );
          name = "Study-Swift-CLITests";
          productName = "Study_Swift_CLITests";
@@ -555,9 +564,9 @@
       };
       "Study-Swift-CLI::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_27";
+         buildConfigurationList = "OBJ_28";
          buildPhases = (
-            "OBJ_30"
+            "OBJ_31"
          );
          dependencies = (
          );
