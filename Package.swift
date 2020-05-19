@@ -1,17 +1,18 @@
 // swift-tools-version:5.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
     name: "Study-Swift-CLI",
     dependencies: [
-        .package(url: "https://github.com/kylef/Commander.git", from: Version(0, 9, 1))
+        .package(url: "https://github.com/kylef/Commander.git", from: "0.9.1")
     ],
     targets: [
         .target(
             name: "Study-Swift-CLI",
-            dependencies: []),
+            dependencies: [
+                "Commander"
+            ]),
         .testTarget(
             name: "Study-Swift-CLITests",
             dependencies: ["Study-Swift-CLI"]),
