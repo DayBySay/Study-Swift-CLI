@@ -1,6 +1,6 @@
 import Commander
 
-let main = command { (filename:String) in
+let main = command { (filename: String) in
   print("Reading file \(filename)...")
 }
 
