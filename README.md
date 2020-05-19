@@ -6,4 +6,5 @@ A description of this package.
 ```
 $ make build
 $ ./.build/debug/Study-Swift-CLI README.md
+Reading file README.md...
 ```
