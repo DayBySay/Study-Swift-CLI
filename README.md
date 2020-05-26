@@ -2,6 +2,9 @@
 
 A description of this package.
 
+## dependencies
+- Apple Swift version 5.2.4
+
 ## build && exec
 ```
 $ make build
